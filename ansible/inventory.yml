@@ -1,0 +1,12 @@
+---
+# Arquivo de Inventário do Ansible
+
+develop:
+  hosts:
+    vagrant:
+      ansible_host: localhost
+      ansible_connection: ssh
+      ansible_port: 2222
+      ansible_user: vagrant
+      ansible_ssh_private_key_file: '../.vagrant/machines/default/virtualbox/private.key'
+

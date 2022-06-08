@@ -1,0 +1,8 @@
+---
+- name: Instalador do mod_security
+  hosts: all
+  gather_facts: true
+  become: true
+  roles: 
+    - role: stephan_lopes.mod_security
+      coreruleset_version: 3.3.2 
