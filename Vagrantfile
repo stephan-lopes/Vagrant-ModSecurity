@@ -6,7 +6,6 @@ Vagrant.configure("2") do |config|
   config.vm.box_check_update = false
 
   config.vm.box = "centos/7"
-  apache_image  = "kevenlopes/mod_security:0.1.0"
   dvwa_image    = "vulnerables/web-dvwa"
 
   config.vm.hostname = "modsec.local"
