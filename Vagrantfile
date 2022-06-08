@@ -11,7 +11,6 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "modsec.local"
   config.vm.network "private_network", type: "dhcp"
   config.vm.network "forwarded_port", guest: 80, host: 8080
-  config.vm.network "forwarded_port", guest: 22, host: 2200
 
   config.vm.provision "file", source: "./my-httpd.conf", destination: "/tmp/httpd.conf"
   config.vm.provision "file", source: "./extra/virtual-host.conf", destination: "/tmp/welcome.conf"
