@@ -3,6 +3,7 @@
   hosts: all
   gather_facts: true
   become: true
-  roles: 
+  roles:
     - role: stephan_lopes.mod_security
-      coreruleset_version: 3.3.2 
+      coreruleset_version: 3.3.2
+      state: latest
