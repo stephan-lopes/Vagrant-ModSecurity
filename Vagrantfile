@@ -1,4 +1,4 @@
-#/etc/httpd/conf.d/welcome.con://github.com/SpiderLabs/ModSecurity/releases/download/v3.0.7/modsecurity-v3.0.7.tar.gfz -*- mode: ruby -*-
+#-*- mode: ruby -*-
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
